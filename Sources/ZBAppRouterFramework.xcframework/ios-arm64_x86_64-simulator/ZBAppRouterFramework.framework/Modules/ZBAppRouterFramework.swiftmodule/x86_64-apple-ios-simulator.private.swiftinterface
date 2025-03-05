@@ -21,7 +21,8 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor public let id: Foundation.UUID
   @_Concurrency.MainActor public let content: @Sendable () -> SwiftUICore.AnyView
   @_Concurrency.MainActor public let isFullScreen: Swift.Bool
-  @_Concurrency.MainActor public init(@SwiftUICore.ViewBuilder content: @escaping @Sendable () -> some View, isFullScreen: Swift.Bool = false)
+  @_Concurrency.MainActor public let swipeToDismiss: Swift.Bool
+  @_Concurrency.MainActor public init(@SwiftUICore.ViewBuilder content: @escaping @Sendable () -> some View, isFullScreen: Swift.Bool = false, swipeToDismiss: Swift.Bool = true)
   public typealias ID = Foundation.UUID
 }
 public struct ToastViewData : Swift.Identifiable {

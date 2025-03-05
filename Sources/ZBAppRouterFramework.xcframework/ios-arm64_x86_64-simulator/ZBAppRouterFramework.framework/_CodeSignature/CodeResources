@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EXrN9JQHlsSC7kTjx5tbLMbvaio=
+		C5vpWP0c73SD2QlwpdD8dZBdvSM=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Mo52CIGwkqQaygteIRX8Bi6ZXe8=
+		55kFgRgnX4nYOwODM3PxI6QNteY=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Mo52CIGwkqQaygteIRX8Bi6ZXe8=
+		55kFgRgnX4nYOwODM3PxI6QNteY=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zXm9yu95g8gu92IDi6P9sjcjqws=
+		Xxvz8vM9dO9o9aivpohQJtKOcWQ=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EXrN9JQHlsSC7kTjx5tbLMbvaio=
+		C5vpWP0c73SD2QlwpdD8dZBdvSM=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		BCenExQ/8xOXyaFcUaB8sN5on8A=
+		iOCrpjDJI6UwpDmAePJJ3zKRsBY=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		BCenExQ/8xOXyaFcUaB8sN5on8A=
+		iOCrpjDJI6UwpDmAePJJ3zKRsBY=
 		</data>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q296DzFoE4BaC4NXDqTxwmFzQ+M=
+		ZZCeMICPX864yR59yvNIM2ARP6Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysY6gCfYhFg4wZwEBNWWrQv2sYlXyCcToZgIrmP0YuM=
+			q0NoXnIywXQEwaOcJ3XMgwe3gHR6Yj6PMD52sUT8sGs=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ubAAiaEtg+F9SCm8bvSSCrnDo0AnQKj3UpbEnENX7Ww=
+			MJlWYNRpM4EPPdaqZceoa/DvB2FpJxcHDu4Pe1E/2oY=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ubAAiaEtg+F9SCm8bvSSCrnDo0AnQKj3UpbEnENX7Ww=
+			MJlWYNRpM4EPPdaqZceoa/DvB2FpJxcHDu4Pe1E/2oY=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3qQmm2VlxDjvObvE08wy75+9wn7687SM82kO2dh6q+A=
+			zvC0CJSsQRMa+xISVHcdfek3UOZ6TmDu86pwgq4/pMY=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ysY6gCfYhFg4wZwEBNWWrQv2sYlXyCcToZgIrmP0YuM=
+			q0NoXnIywXQEwaOcJ3XMgwe3gHR6Yj6PMD52sUT8sGs=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0f2c6pe0AawB8TsgY/zpIJrwPSoOdJMIDXfDDP9BYQc=
+			h0F7ByNtF3sMKMpvrPV/QrsjwCg+ZH4gmL67p3u5Jl8=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0f2c6pe0AawB8TsgY/zpIJrwPSoOdJMIDXfDDP9BYQc=
+			h0F7ByNtF3sMKMpvrPV/QrsjwCg+ZH4gmL67p3u5Jl8=
 			</data>
 		</dict>
 		<key>Modules/ZBAppRouterFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e5zcJ9QK5K0qln/TQnhwcP08d7EjIktcPyarcDlswJk=
+			iWPbPzsJScWjklV3E7LI7Vaf09q2fWZh7yF1Br68XvY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

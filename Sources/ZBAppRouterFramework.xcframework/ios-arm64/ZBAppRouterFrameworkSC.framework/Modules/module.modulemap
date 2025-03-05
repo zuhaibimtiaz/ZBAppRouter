@@ -1,6 +1,0 @@
-framework module ZBAppRouterFrameworkSC {
-  umbrella header "ZBAppRouterFrameworkSC.h"
-  export *
-
-  module * { export * }
-}

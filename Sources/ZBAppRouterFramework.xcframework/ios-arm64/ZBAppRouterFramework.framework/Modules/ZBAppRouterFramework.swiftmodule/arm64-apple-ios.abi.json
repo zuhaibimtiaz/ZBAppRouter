@@ -584,9 +584,54 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "swipeToDismiss",
+            "printedName": "swipeToDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20ZBAppRouterFramework9SheetDataV14swipeToDismissSbvp",
+            "mangledName": "$s20ZBAppRouterFramework9SheetDataV14swipeToDismissSbvp",
+            "moduleName": "ZBAppRouterFramework",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20ZBAppRouterFramework9SheetDataV14swipeToDismissSbvg",
+                "mangledName": "$s20ZBAppRouterFramework9SheetDataV14swipeToDismissSbvg",
+                "moduleName": "ZBAppRouterFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(content:isFullScreen:)",
+            "printedName": "init(content:isFullScreen:swipeToDismiss:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -617,11 +662,18 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20ZBAppRouterFramework9SheetDataV7content12isFullScreenACxyYbc_Sbtc7SwiftUI4ViewRzlufc",
-            "mangledName": "$s20ZBAppRouterFramework9SheetDataV7content12isFullScreenACxyYbc_Sbtc7SwiftUI4ViewRzlufc",
+            "usr": "s:20ZBAppRouterFramework9SheetDataV7content12isFullScreen14swipeToDismissACxyYbc_S2btc7SwiftUI4ViewRzlufc",
+            "mangledName": "$s20ZBAppRouterFramework9SheetDataV7content12isFullScreen14swipeToDismissACxyYbc_S2btc7SwiftUI4ViewRzlufc",
             "moduleName": "ZBAppRouterFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "declAttributes": [
@@ -3701,9 +3753,16 @@
     {
       "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFramework\/ZBAppRouterFramework\/SheetData.swift",
       "kind": "BooleanLiteral",
-      "offset": 462,
+      "offset": 498,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFramework\/ZBAppRouterFramework\/SheetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 536,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFramework\/ZBAppRouterFramework\/ToastView.swift",
