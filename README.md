@@ -43,7 +43,7 @@ The `ZBNavigationAction` struct provides the following methods for navigation, f
 - **`until(_ predicate: @escaping (ZBRoute) -> Bool)`**: Pops routes until a condition is met, without pushing a new route.
 - **`toWithResult(_ route: ZBRoute, completion: @escaping (Any?) -> Void)`**: Pushes a route and provides a completion handler to receive a result when the route is popped.
 - **`snackbar(_ message: String, expandedMessage: String? = nil, duration: Double = 3.0)`**: Displays a toast/snackbar at the bottom of the screen or current view, with an optional expanded message and custom duration (default 3.0 seconds). Snackbars support swipe-to-dismiss (right) and can stack upward with dynamic widths (90%, 85%, 80%, etc.) and a capsule shape.
-- **`alert(title: String, message: String? = nil, primaryButton: AlertButtonData, secondaryButton: AlertButtonData? = nil)`**: Presents a modal alert with a title, optional message, and customizable buttons (primary and optional secondary). Buttons can have roles (e.g., `.cancel`, `.destructive`) and actions executed on the main actor.
+- **`alert(title: String, message: String? = nil, primaryButton: Alert.Button, secondaryButton: Alert.Button? = nil)`**: Presents a modal alert with a title, optional message, and customizable buttons (primary and optional secondary). Buttons can have roles (e.g., `.cancel`, `.destructive`) and actions executed on the main actor.
 - **`sheet<Content: View>(content: @escaping @Sendable () -> Content, isFullScreen: Bool = false)`**: Presents a modal sheet (bottom sheet by default, or full-screen if `isFullScreen` is `true`) with custom content. Sheets support a drag indicator but are restricted from swipe-to-dismiss, requiring programmatic dismissal via `sheetDismiss()`.
 - **`sheetDismiss()`**: Programmatically dismisses the currently presented sheet.
 
@@ -117,7 +117,7 @@ struct SettingsView: View {
 - Here’s an example demonstrating all the navigation actions provided by `ZBNavigationAction`:
 ```swift
 struct HomeView: View {
-    @Environment(\EnvironmentValues.navigate) private var navigate
+    @Environment(\.navigate) private var navigate
     
     var body: some View {
         VStack(spacing: 20) {
@@ -173,7 +173,7 @@ struct HomeView: View {
 }
 
 struct DetailView: View {
-    @Environment(\EnvironmentValues.navigate) private var navigate
+    @Environment(\.navigate) private var navigate
     let id: String
     
     var body: some View {
@@ -190,7 +190,7 @@ struct DetailView: View {
 }
 
 struct SettingsView: View {
-    @Environment(\EnvironmentValues.navigate) private var navigate
+    @Environment(\.navigate) private var navigate
     
     var body: some View {
         VStack {
@@ -202,8 +202,8 @@ struct SettingsView: View {
                 navigate.alert(
                     title: "Settings Change",
                     message: "Would you like to save changes?",
-                    primaryButton: AlertButtonData(label: "Save") { print("Saved") },
-                    secondaryButton: AlertButtonData(label: "Cancel", role: .cancel)
+                    primaryButton:.default(Text("Yes"), action: { print("Saved") }),
+                    secondaryButton:.cancel()
                 )
             }
         }
@@ -211,7 +211,7 @@ struct SettingsView: View {
 }
 
 struct BottomSheetContent: View {
-    @Environment(\EnvironmentValues.navigate) private var navigate
+    @Environment(\.navigate) private var navigate
     
     var body: some View {
         VStack(spacing: 20) {
@@ -233,7 +233,7 @@ struct BottomSheetContent: View {
 }
 
 struct FullScreenSheetContent: View {
-    @Environment(\EnvironmentValues.navigate) private var navigate
+    @Environment(\.navigate) private var navigate
     
     var body: some View {
         VStack(spacing: 20) {
@@ -294,8 +294,9 @@ navigate.snackbar("Success!", expandedMessage: "Operation completed successfully
 navigate.alert(
     title: "Confirm Action",
     message: "Are you sure?",
-    primaryButton: AlertButtonData(label: "Yes", role: .destructive) { print("Confirmed") },
-    secondaryButton: AlertButtonData(label: "No", role: .cancel)
+    primaryButton:.default(Text("Yes"), action: { print("Saved") }),
+    secondaryButton: .cancel()
+
 )
 ```
 - Show a bottom sheet:
