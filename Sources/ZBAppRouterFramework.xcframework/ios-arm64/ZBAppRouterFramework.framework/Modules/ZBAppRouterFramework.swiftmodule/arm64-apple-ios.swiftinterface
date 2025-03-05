@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios18.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZBAppRouterFramework
+import Swift
+import SwiftUI
+@_exported import ZBAppRouterFramework
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol Routable : Swift.Hashable, Swift.Sendable {
+  var asRoute: ZBAppRouterFramework.Route { get }
+}
+public enum Route : Swift.Hashable, Swift.Sendable {
+  case custom(ZBAppRouterFramework.AnyRoutable)
+  public init<T>(_ routable: T) where T : ZBAppRouterFramework.Routable
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ZBAppRouterFramework.Route, b: ZBAppRouterFramework.Route) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct AnyRoutable : Swift.Hashable, Swift.Sendable {
+  public init<T>(_ routable: T) where T : ZBAppRouterFramework.Routable
+  public func unwrap<T>(as type: T.Type) -> T? where T : ZBAppRouterFramework.Routable
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: ZBAppRouterFramework.AnyRoutable, rhs: ZBAppRouterFramework.AnyRoutable) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor public struct NavigationAction {
+  public enum NavigationType : Swift.Sendable {
+    case to(ZBAppRouterFramework.Route)
+    case toNamed(ZBAppRouterFramework.Route)
+    case back(result: (any Swift.Sendable)?)
+    case off(ZBAppRouterFramework.Route)
+    case offNamed(ZBAppRouterFramework.Route)
+    case offAll(ZBAppRouterFramework.Route)
+    case offAllNamed(ZBAppRouterFramework.Route)
+    case offAllToRoot
+    case offUntil(ZBAppRouterFramework.Route, @Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+    case offNamedUntil(ZBAppRouterFramework.Route, @Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+    case until(@Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+    case toWithResult(ZBAppRouterFramework.Route, completion: @Sendable (Any?) -> Swift.Void)
+  }
+  @_Concurrency.MainActor public init(action: @escaping @_Concurrency.MainActor (ZBAppRouterFramework.NavigationAction.NavigationType) -> Swift.Void)
+  @_Concurrency.MainActor public func to(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func toNamed(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func back(result: (any Swift.Sendable)? = nil)
+  @_Concurrency.MainActor public func off(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func offNamed(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func offAll(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func offAllNamed(_ route: ZBAppRouterFramework.Route)
+  @_Concurrency.MainActor public func offAllToRoot()
+  @_Concurrency.MainActor public func offUntil(_ route: ZBAppRouterFramework.Route, until predicate: @escaping @Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+  @_Concurrency.MainActor public func offNamedUntil(_ route: ZBAppRouterFramework.Route, until predicate: @escaping @Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+  @_Concurrency.MainActor public func until(_ predicate: @escaping @Sendable (ZBAppRouterFramework.Route) -> Swift.Bool)
+  @_Concurrency.MainActor public func toWithResult(_ route: ZBAppRouterFramework.Route, completion: @escaping @Sendable (Any?) -> Swift.Void)
+}
+@_Concurrency.MainActor public struct NavigationHandler<T> where T : ZBAppRouterFramework.Routable {
+  @_Concurrency.MainActor public static func handleNavigation(_ navigationType: ZBAppRouterFramework.NavigationAction.NavigationType, routes: inout [T], resultHandler: inout (@Sendable (Any?) -> Swift.Void)?)
+}
+@_Concurrency.MainActor public struct NavigateEnvironmentKey : @preconcurrency SwiftUICore.EnvironmentKey {
+  @_Concurrency.MainActor public static var defaultValue: ZBAppRouterFramework.NavigationAction
+  public typealias Value = ZBAppRouterFramework.NavigationAction
+}
+extension SwiftUICore.EnvironmentValues {
+  @_Concurrency.MainActor public var navigate: ZBAppRouterFramework.NavigationAction {
+    get
+    set
+  }
+}
+@_Concurrency.MainActor public struct NavigationStackView<RouteType, Content> : SwiftUICore.View where RouteType : ZBAppRouterFramework.Routable, Content : SwiftUICore.View {
+  @_Concurrency.MainActor public init(@SwiftUICore.ViewBuilder rootView: () -> Content, @SwiftUICore.ViewBuilder destinationBuilder: @escaping (RouteType) -> any SwiftUICore.View)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20ZBAppRouterFramework19NavigationStackViewV4bodyQrvp", 0) __<RouteType, Content>
+}
+extension ZBAppRouterFramework.NavigationAction : Swift.Sendable {}
+extension ZBAppRouterFramework.NavigationHandler : Swift.Sendable {}
+extension ZBAppRouterFramework.NavigateEnvironmentKey : Swift.Sendable {}
+extension ZBAppRouterFramework.NavigationStackView : Swift.Sendable {}
