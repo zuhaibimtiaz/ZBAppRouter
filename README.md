@@ -21,16 +21,12 @@ A flexible and type-safe navigation stack solution for SwiftUI applications. `ZB
 Add `ZBNavigationStack` to your project via Swift Package Manager:
 
 1. In Xcode, go to `File > Add Packages`.
-2. Enter the repository URL:  
-3. Specify the version or branch you want to use.
-4. Add the package to your target.
+5. Enter https://github.com/zuhaib.imtiaz/ZBNavigationStack.git
 
 Or add it directly to your `Package.swift`:
 
 ```swift
-dependencies: [
  .package(url: "https://github.com/zuhaib.imtiaz/ZBNavigationStack.git", from: "1.0.0")
-]
 ```
 ## List of Navigation Actions
 
