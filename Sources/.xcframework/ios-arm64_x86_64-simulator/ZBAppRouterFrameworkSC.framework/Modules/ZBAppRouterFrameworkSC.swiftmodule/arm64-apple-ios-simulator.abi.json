@@ -1,0 +1,3751 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZBAppRouterFrameworkSC",
+    "printedName": "ZBAppRouterFrameworkSC",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertData",
+        "printedName": "AlertData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV2id10Foundation4UUIDVvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV2id10Foundation4UUIDVvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV2id10Foundation4UUIDVvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV2id10Foundation4UUIDVvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV5titleSSvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV5titleSSvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV5titleSSvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV5titleSSvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV7messageSSSgvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV7messageSSSgvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV7messageSSSgvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV7messageSSSgvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "primaryButton",
+            "printedName": "primaryButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "SwiftUI.Alert.Button",
+                "usr": "s:7SwiftUI5AlertV6ButtonV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV13primaryButton7SwiftUI0E0V0H0Vvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV13primaryButton7SwiftUI0E0V0H0Vvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "SwiftUI.Alert.Button",
+                    "usr": "s:7SwiftUI5AlertV6ButtonV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV13primaryButton7SwiftUI0E0V0H0Vvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV13primaryButton7SwiftUI0E0V0H0Vvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryButton",
+            "printedName": "secondaryButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Alert.Button?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "SwiftUI.Alert.Button",
+                    "usr": "s:7SwiftUI5AlertV6ButtonV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV15secondaryButton7SwiftUI0E0V0H0VSgvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV15secondaryButton7SwiftUI0E0V0H0VSgvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Alert.Button?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Button",
+                        "printedName": "SwiftUI.Alert.Button",
+                        "usr": "s:7SwiftUI5AlertV6ButtonV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV15secondaryButton7SwiftUI0E0V0H0VSgvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV15secondaryButton7SwiftUI0E0V0H0VSgvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:message:primaryButton:secondaryButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AlertData",
+                "printedName": "ZBAppRouterFrameworkSC.AlertData",
+                "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "SwiftUI.Alert.Button",
+                "usr": "s:7SwiftUI5AlertV6ButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Alert.Button?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "SwiftUI.Alert.Button",
+                    "usr": "s:7SwiftUI5AlertV6ButtonV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV5title7message13primaryButton09secondaryJ0ACSS_SSSg7SwiftUI0E0V0J0VAMSgtcfc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV5title7message13primaryButton09secondaryJ0ACSS_SSSg7SwiftUI0E0V0J0VAMSgtcfc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC9AlertDataV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SheetData",
+        "printedName": "SheetData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV2id10Foundation4UUIDVvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV2id10Foundation4UUIDVvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV2id10Foundation4UUIDVvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV2id10Foundation4UUIDVvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "content",
+            "printedName": "content",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> SwiftUI.AnyView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV7content7SwiftUI7AnyViewVyYbcvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV7content7SwiftUI7AnyViewVyYbcvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> SwiftUI.AnyView",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV7content7SwiftUI7AnyViewVyYbcvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV7content7SwiftUI7AnyViewVyYbcvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFullScreen",
+            "printedName": "isFullScreen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV12isFullScreenSbvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV12isFullScreenSbvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV12isFullScreenSbvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV12isFullScreenSbvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(content:isFullScreen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SheetData",
+                "printedName": "ZBAppRouterFrameworkSC.SheetData",
+                "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV7content12isFullScreenACxyYbc_Sbtc7SwiftUI4ViewRzlufc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV7content12isFullScreenACxyYbc_Sbtc7SwiftUI4ViewRzlufc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC9SheetDataV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastViewData",
+        "printedName": "ToastViewData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV2id10Foundation4UUIDVvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV2id10Foundation4UUIDVvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV2id10Foundation4UUIDVvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV2id10Foundation4UUIDVvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV7messageSSvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV7messageSSvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV7messageSSvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV7messageSSvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expandedMessage",
+            "printedName": "expandedMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV15expandedMessageSSSgvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV15expandedMessageSSSgvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV15expandedMessageSSSgvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV15expandedMessageSSSgvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV8durationSdvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV8durationSdvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV8durationSdvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV8durationSdvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(message:expandedMessage:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToastViewData",
+                "printedName": "ZBAppRouterFrameworkSC.ToastViewData",
+                "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV7message15expandedMessage8durationACSS_SSSgSdtcfc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV7message15expandedMessage8durationACSS_SSSgSdtcfc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC13ToastViewDataV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToastView",
+        "printedName": "ToastView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC9ToastViewV4bodyQrvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC9ToastViewV4bodyQrvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC9ToastViewV4bodyQrvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC9ToastViewV4bodyQrvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC9ToastViewV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC9ToastViewV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNavigateEnvironmentKey",
+        "printedName": "ZBNavigateEnvironmentKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "defaultValue",
+            "printedName": "defaultValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNavigationAction",
+                "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvpZ",
+            "mangledName": "$s22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvpZ",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationAction",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvgZ",
+                "mangledName": "$s22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvgZ",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationAction",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvsZ",
+                "mangledName": "$s22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvsZ",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvMZ",
+                "mangledName": "$s22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV12defaultValueAA18ZBNavigationActionVvMZ",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC24ZBNavigateEnvironmentKeyV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EnvironmentKey",
+            "printedName": "EnvironmentKey",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Value",
+                "printedName": "Value",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationAction",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI14EnvironmentKeyP",
+            "mangledName": "$s7SwiftUI14EnvironmentKeyP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNavigationAction",
+        "printedName": "ZBNavigationAction",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "ZBNavigationType",
+            "printedName": "ZBNavigationType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "to",
+                "printedName": "to",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBRoute",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO2toyAeA7ZBRouteOcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO2toyAeA7ZBRouteOcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "back",
+                "printedName": "back",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> ((any Swift.Sendable)?) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Sendable)?) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(result: (any Swift.Sendable)?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "(any Swift.Sendable)?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Sendable",
+                                    "printedName": "any Swift.Sendable",
+                                    "usr": "s:s8SendableP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO4backyAEs8Sendable_pSg_tcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO4backyAEs8Sendable_pSg_tcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "off",
+                "printedName": "off",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBRoute",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO3offyAeA7ZBRouteOcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO3offyAeA7ZBRouteOcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "offAll",
+                "printedName": "offAll",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBRoute",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO6offAllyAeA7ZBRouteOcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO6offAllyAeA7ZBRouteOcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "offAllToRoot",
+                "printedName": "offAllToRoot",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBNavigationType",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12offAllToRootyA2EmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12offAllToRootyA2EmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "offUntil",
+                "printedName": "offUntil",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.ZBRoute, @escaping (ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.ZBRoute, @escaping (ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(ZBAppRouterFrameworkSC.ZBRoute, (ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZBRoute",
+                                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                              },
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Bool",
+                                    "printedName": "Swift.Bool",
+                                    "usr": "s:Sb"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ZBRoute",
+                                    "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                                    "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO8offUntilyAeA7ZBRouteO_SbAHYbctcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO8offUntilyAeA7ZBRouteO_SbAHYbctcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "until",
+                "printedName": "until",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (@escaping (ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(@escaping (ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZBRoute",
+                                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5untilyAESbAA7ZBRouteOYbccAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5untilyAESbAA7ZBRouteOYbccAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "toWithResult",
+                "printedName": "toWithResult",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.ZBRoute, @escaping (Any?) -> ()) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.ZBRoute, @escaping (Any?) -> ()) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(ZBAppRouterFrameworkSC.ZBRoute, completion: (Any?) -> ())",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZBRoute",
+                                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                              },
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(Any?) -> ()",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Void",
+                                    "printedName": "()"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "Any?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ProtocolComposition",
+                                        "printedName": "Any"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12toWithResultyAeA7ZBRouteO_yypSgYbctcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12toWithResultyAeA7ZBRouteO_yypSgYbctcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "snackbar",
+                "printedName": "snackbar",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (Swift.String, Swift.String?, Swift.Double) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String?, Swift.Double) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, expandedMessage: Swift.String?, duration: Swift.Double)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Double",
+                                "printedName": "Swift.Double",
+                                "usr": "s:Sd"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO8snackbaryAESS_SSSgSdtcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO8snackbaryAESS_SSSgSdtcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC"
+              },
+              {
+                "kind": "Var",
+                "name": "alert",
+                "printedName": "alert",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (Swift.String, Swift.String?, SwiftUI.Alert.Button, SwiftUI.Alert.Button?) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String?, SwiftUI.Alert.Button, SwiftUI.Alert.Button?) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(Swift.String, message: Swift.String?, primaryButton: SwiftUI.Alert.Button, secondaryButton: SwiftUI.Alert.Button?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Button",
+                                "printedName": "SwiftUI.Alert.Button",
+                                "usr": "s:7SwiftUI5AlertV6ButtonV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "SwiftUI.Alert.Button?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Button",
+                                    "printedName": "SwiftUI.Alert.Button",
+                                    "usr": "s:7SwiftUI5AlertV6ButtonV"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5alertyAESS_SSSg7SwiftUI5AlertV6ButtonVALSgtcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5alertyAESS_SSSg7SwiftUI5AlertV6ButtonVALSgtcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sheet",
+                "printedName": "sheet",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> (ZBAppRouterFrameworkSC.SheetData, Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZBAppRouterFrameworkSC.SheetData, Swift.Bool) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(ZBAppRouterFrameworkSC.SheetData, isFullScreen: Swift.Bool)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "SheetData",
+                                "printedName": "ZBAppRouterFrameworkSC.SheetData",
+                                "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Bool",
+                                "printedName": "Swift.Bool",
+                                "usr": "s:Sb"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5sheetyAeA9SheetDataV_SbtcAEmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO5sheetyAeA9SheetDataV_SbtcAEmF",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sheetDismiss",
+                "printedName": "sheetDismiss",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type) -> ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBNavigationType",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                        "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZBNavigationType",
+                            "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12sheetDismissyA2EmF",
+                "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO12sheetDismissyA2EmF",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNavigationAction",
+                "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationType",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV6actionACyAC0E4TypeOScMYcc_tcfc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV6actionACyAC0E4TypeOScMYcc_tcfc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "to",
+            "printedName": "to(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV2toyyAA7ZBRouteOF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV2toyyAA7ZBRouteOF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "back",
+            "printedName": "back(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Sendable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Sendable",
+                    "printedName": "any Swift.Sendable",
+                    "usr": "s:s8SendableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV4back6resultys8Sendable_pSg_tF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV4back6resultys8Sendable_pSg_tF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "off",
+            "printedName": "off(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV3offyyAA7ZBRouteOF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV3offyyAA7ZBRouteOF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "offAll",
+            "printedName": "offAll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV6offAllyyAA7ZBRouteOF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV6offAllyyAA7ZBRouteOF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "offAllToRoot",
+            "printedName": "offAllToRoot()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV12offAllToRootyyF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV12offAllToRootyyF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "offUntil",
+            "printedName": "offUntil(_:until:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBRoute",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                    "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV8offUntil_5untilyAA7ZBRouteO_SbAGYbctF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV8offUntil_5untilyAA7ZBRouteO_SbAGYbctF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "until",
+            "printedName": "until(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBAppRouterFrameworkSC.ZBRoute) -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBRoute",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                    "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV5untilyySbAA7ZBRouteOYbcF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV5untilyySbAA7ZBRouteOYbcF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toWithResult",
+            "printedName": "toWithResult(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV12toWithResult_10completionyAA7ZBRouteO_yypSgYbctF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV12toWithResult_10completionyAA7ZBRouteO_yypSgYbctF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "snackbar",
+            "printedName": "snackbar(_:expandedMessage:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV8snackbar_15expandedMessage8durationySS_SSSgSdtF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV8snackbar_15expandedMessage8durationySS_SSSgSdtF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "alert",
+            "printedName": "alert(title:message:primaryButton:secondaryButton:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Button",
+                "printedName": "SwiftUI.Alert.Button",
+                "usr": "s:7SwiftUI5AlertV6ButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Alert.Button?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Button",
+                    "printedName": "SwiftUI.Alert.Button",
+                    "usr": "s:7SwiftUI5AlertV6ButtonV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV5alert5title7message13primaryButton09secondaryK0ySS_SSSg7SwiftUI5AlertV0K0VANSgtF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV5alert5title7message13primaryButton09secondaryK0ySS_SSSg7SwiftUI5AlertV0K0VANSgtF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sheet",
+            "printedName": "sheet(content:isFullScreen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV5sheet7content12isFullScreenyxyYbc_Sbt7SwiftUI4ViewRzlF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV5sheet7content12isFullScreenyxyYbc_Sbt7SwiftUI4ViewRzlF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sheetDismiss",
+            "printedName": "sheetDismiss()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV12sheetDismissyyF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV12sheetDismissyyF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC18ZBNavigationActionV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNavigationHandler",
+        "printedName": "ZBNavigationHandler",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleNavigation",
+            "printedName": "handleNavigation(_:routes:resultHandler:snackbarQueue:alertData:sheetData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNavigationType",
+                "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction.ZBNavigationType",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV0E4TypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Any?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ZBAppRouterFrameworkSC.ToastViewData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToastViewData",
+                    "printedName": "ZBAppRouterFrameworkSC.ToastViewData",
+                    "usr": "s:22ZBAppRouterFrameworkSC13ToastViewDataV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBAppRouterFrameworkSC.AlertData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertData",
+                    "printedName": "ZBAppRouterFrameworkSC.AlertData",
+                    "usr": "s:22ZBAppRouterFrameworkSC9AlertDataV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZBAppRouterFrameworkSC.SheetData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetData",
+                    "printedName": "ZBAppRouterFrameworkSC.SheetData",
+                    "usr": "s:22ZBAppRouterFrameworkSC9SheetDataV"
+                  }
+                ],
+                "paramValueOwnership": "InOut",
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC19ZBNavigationHandlerV16handleNavigation_6routes06resultF013snackbarQueue9alertData05sheetN0yAA0E6ActionV0E4TypeO_SayxGzyypSgYbcSgzSayAA09ToastViewN0VGzAA05AlertN0VSgzAA05SheetN0VSgztFZ",
+            "mangledName": "$s22ZBAppRouterFrameworkSC19ZBNavigationHandlerV16handleNavigation_6routes06resultF013snackbarQueue9alertData05sheetN0yAA0E6ActionV0E4TypeO_SayxGzyypSgYbcSgzSayAA09ToastViewN0VGzAA05AlertN0VSgzAA05SheetN0VSgztFZ",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "sugared_genericSig": "<T where T : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC19ZBNavigationHandlerV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC19ZBNavigationHandlerV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+        "sugared_genericSig": "<T where T : ZBAppRouterFrameworkSC.ZBRoutable>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBNavigationStackView",
+        "printedName": "ZBNavigationStackView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootView:destinationBuilder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNavigationStackView",
+                "printedName": "ZBAppRouterFrameworkSC.ZBNavigationStackView<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:22ZBAppRouterFrameworkSC21ZBNavigationStackViewV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> any SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "any SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC21ZBNavigationStackViewV04rootG018destinationBuilderACyxq_Gq_yXE_7SwiftUI0G0_pxctcfc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC21ZBNavigationStackViewV04rootG018destinationBuilderACyxq_Gq_yXE_7SwiftUI0G0_pxctcfc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<RouteType, Content where RouteType : ZBAppRouterFrameworkSC.ZBRoutable, Content : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC21ZBNavigationStackViewV4bodyQrvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC21ZBNavigationStackViewV4bodyQrvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC21ZBNavigationStackViewV4bodyQrvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC21ZBNavigationStackViewV4bodyQrvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<RouteType, Content where RouteType : ZBAppRouterFrameworkSC.ZBRoutable, Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC21ZBNavigationStackViewV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC21ZBNavigationStackViewV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<RouteType, Content where RouteType : ZBAppRouterFrameworkSC.ZBRoutable, Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBRoutable",
+        "printedName": "ZBRoutable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "asRoute",
+            "printedName": "asRoute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC10ZBRoutableP7asRouteAA7ZBRouteOvp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC10ZBRoutableP7asRouteAA7ZBRouteOvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBRoute",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                    "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC10ZBRoutableP7asRouteAA7ZBRouteOvg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC10ZBRoutableP7asRouteAA7ZBRouteOvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+                "sugared_genericSig": "<Self where Self : ZBAppRouterFrameworkSC.ZBRoutable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22ZBAppRouterFrameworkSC10ZBRoutableP",
+        "mangledName": "$s22ZBAppRouterFrameworkSC10ZBRoutableP",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "genericSig": "<τ_0_0 : Swift.Hashable, τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Hashable, Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBRoute",
+        "printedName": "ZBRoute",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZBAppRouterFrameworkSC.ZBRoute.Type) -> (ZBAppRouterFrameworkSC.ZBAnyRoutable) -> ZBAppRouterFrameworkSC.ZBRoute",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZBAppRouterFrameworkSC.ZBAnyRoutable) -> ZBAppRouterFrameworkSC.ZBRoute",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBRoute",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                        "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBAnyRoutable",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBAnyRoutable",
+                        "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBRoute.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZBRoute",
+                        "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                        "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO6customyAcA13ZBAnyRoutableVcACmF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO6customyAcA13ZBAnyRoutableVcACmF",
+            "moduleName": "ZBAppRouterFrameworkSC"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteOyACxcAA10ZBRoutableRzlufc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteOyACxcAA10ZBRoutableRzlufc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "sugared_genericSig": "<T where T : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO9hashValueSivp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO9hashValueSivp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO9hashValueSivg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO9hashValueSivg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBRoute",
+                "printedName": "ZBAppRouterFrameworkSC.ZBRoute",
+                "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22ZBAppRouterFrameworkSC7ZBRouteO",
+        "mangledName": "$s22ZBAppRouterFrameworkSC7ZBRouteO",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZBAnyRoutable",
+        "printedName": "ZBAnyRoutable",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBAnyRoutable",
+                "printedName": "ZBAppRouterFrameworkSC.ZBAnyRoutable",
+                "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableVyACxcAA10ZBRoutableRzlufc",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableVyACxcAA10ZBRoutableRzlufc",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "sugared_genericSig": "<T where T : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "unwrap",
+            "printedName": "unwrap(as:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV6unwrap2asxSgxm_tAA10ZBRoutableRzlF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV6unwrap2asxSgxm_tAA10ZBRoutableRzlF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "sugared_genericSig": "<T where T : ZBAppRouterFrameworkSC.ZBRoutable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV4hash4intoys6HasherVz_tF",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBAnyRoutable",
+                "printedName": "ZBAppRouterFrameworkSC.ZBAnyRoutable",
+                "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZBAnyRoutable",
+                "printedName": "ZBAppRouterFrameworkSC.ZBAnyRoutable",
+                "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV2eeoiySbAC_ACtFZ",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV9hashValueSivp",
+            "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV9hashValueSivp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV9hashValueSivg",
+                "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV9hashValueSivg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22ZBAppRouterFrameworkSC13ZBAnyRoutableV",
+        "mangledName": "$s22ZBAppRouterFrameworkSC13ZBAnyRoutableV",
+        "moduleName": "ZBAppRouterFrameworkSC",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EnvironmentValues",
+        "printedName": "EnvironmentValues",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "navigate",
+            "printedName": "navigate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZBNavigationAction",
+                "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvp",
+            "mangledName": "$s7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvp",
+            "moduleName": "ZBAppRouterFrameworkSC",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationAction",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvg",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvg",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZBNavigationAction",
+                    "printedName": "ZBAppRouterFrameworkSC.ZBNavigationAction",
+                    "usr": "s:22ZBAppRouterFrameworkSC18ZBNavigationActionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvs",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvs",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvM",
+                "mangledName": "$s7SwiftUI17EnvironmentValuesV22ZBAppRouterFrameworkSCE8navigateAD18ZBNavigationActionVvM",
+                "moduleName": "ZBAppRouterFrameworkSC",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI17EnvironmentValuesV",
+        "mangledName": "$s7SwiftUI17EnvironmentValuesV",
+        "moduleName": "SwiftUICore",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/SheetData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 462,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 455,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ToastView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ZBNavigationAction.swift",
+      "kind": "FloatLiteral",
+      "offset": 2446,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ZBNavigationAction.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2999,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ZBNavigationStackView.swift",
+      "kind": "Array",
+      "offset": 297,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zuhaibimtiaz\/Desktop\/Projects\/ZBAppRouterFrameworkSC\/ZBAppRouterFrameworkSC\/ZBNavigationStackView.swift",
+      "kind": "Array",
+      "offset": 422,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
