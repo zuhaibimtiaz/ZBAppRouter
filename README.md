@@ -32,23 +32,6 @@ dependencies: [
  .package(url: "https://github.com/zuhaib.imtiaz/ZBNavigationStack.git", from: "1.0.0")
 ]
 ```
-## Usage
-### Defining Routes
-Start by importing `ZBNavigationStack` and defining your routes by conforming to the `ZBRoutable` protocol:
-
-```swift
-import ZBNavigationStack
-
-enum AppRoute: ZBRoutable {
-    case home
-    case detail(id: String)
-    case settings
-    
-    var asRoute: ZBRoute {
-        ZBRoute(self)
-    }
-}
-```
 ## List of Navigation Actions
 
 The `ZBNavigationAction` struct provides the following methods for navigation:
@@ -66,6 +49,23 @@ The `ZBNavigationAction` struct provides the following methods for navigation:
 - **`until(_ predicate: @escaping (ZBRoute) -> Bool)`**: Pops routes until a condition is met, without pushing a new route.
 - **`toWithResult(_ route: ZBRoute, completion: @escaping (Any?) -> Void)`**: Pushes a route and provides a completion handler to receive a result when the route is popped.
 
+## Usage
+### Defining Routes
+Start by importing `ZBNavigationStack` and defining your routes by conforming to the `ZBRoutable` protocol:
+
+```swift
+import ZBNavigationStack
+
+enum AppRoute: ZBRoutable {
+    case home
+    case detail(id: String)
+    case settings
+    
+    var asRoute: ZBRoute {
+        ZBRoute(self)
+    }
+}
+```
 ### Setting Up the Navigation Stack
 
 Create a navigation stack using `ZBNavigationStackView`. Provide a root view and a destination builder to handle route destinations:
