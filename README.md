@@ -153,8 +153,8 @@ struct HomeView: View {
                 navigate.alert(
                     title: "Confirm Action",
                     message: "Are you sure you want to proceed?",
-                    primaryButton: AlertButtonData(label: "Yes", role: .destructive) { print("Confirmed") },
-                    secondaryButton: AlertButtonData(label: "No", role: .cancel)
+                    primaryButton: .default(Text("Yes"), action: { print("Saved") }),
+                    secondaryButton: .cancel()
                 )
             }
             Button("Show Bottom Sheet") {
@@ -202,8 +202,8 @@ struct SettingsView: View {
                 navigate.alert(
                     title: "Settings Change",
                     message: "Would you like to save changes?",
-                    primaryButton:.default(Text("Yes"), action: { print("Saved") }),
-                    secondaryButton:.cancel()
+                    primaryButton: .default(Text("Yes"), action: { print("Saved") }),
+                    secondaryButton: .cancel()
                 )
             }
         }
