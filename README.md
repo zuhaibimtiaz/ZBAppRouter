@@ -27,7 +27,7 @@ Add `ZBNavigationStack` to your project via Swift Package Manager:
 Or add it directly to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/zuhaibimtiaz/ZBAppRouter.git", from: "1.0.0")
+.package(url: "https://github.com/zuhaibimtiaz/ZBAppRouter.git", from: "1.0.2")
 ```
 
 ## List of Navigation Actions
