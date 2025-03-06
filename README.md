@@ -337,3 +337,6 @@ struct DetailView: View {
 Navigation Actions
 
 - **`ZBNavigationAction`**: Provides methods like `to`, `back`, `off`, `offUntil`, etc., for controlling navigation.
+### Inspiration
+- Inspired by Flutter GetX Package
+
