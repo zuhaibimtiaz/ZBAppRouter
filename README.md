@@ -1,7 +1,7 @@
 
-# ZBNavigationStack
+# ZBAppRouter
 
-A flexible and type-safe navigation stack solution for SwiftUI applications. `ZBNavigationStack` provides a protocol-based routing system with support for custom navigation actions, type-erased routes, result handling, and advanced UI features like toasts (snackbars), alerts, and sheets.
+A flexible and type-safe navigation stack solution for SwiftUI applications. `ZBAppRouter` provides a protocol-based routing system with support for custom navigation actions, type-erased routes, result handling, and advanced UI features like toasts (snackbars), alerts, and sheets.
 
 ## Features
 - **Type-Safe Routing**: Define routes using the `ZBRoutable` protocol.
