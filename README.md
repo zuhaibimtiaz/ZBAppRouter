@@ -49,7 +49,7 @@ The `ZBNavigationAction` struct provides the following methods for navigation, f
 
 ## Usage
 ### Defining Routes
-Start by importing `ZBNavigationStack` and defining your routes by conforming to the `ZBRoutable` protocol:
+Start by importing `ZBAppRouterFramework` and defining your routes by conforming to the `ZBRoutable` protocol:
 
 ```swift
 import ZBNavigationStack
