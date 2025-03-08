@@ -52,7 +52,7 @@ The `ZBNavigationAction` struct provides the following methods for navigation, f
 Start by importing `ZBAppRouterFramework` and defining your routes by conforming to the `ZBRoutable` protocol:
 
 ```swift
-import ZBNavigationStack
+import ZBAppRouterFramework
 
 enum AppRoute: ZBRoutable {
     case home
@@ -70,7 +70,7 @@ enum AppRoute: ZBRoutable {
 Create a navigation stack using `ZBNavigationStackView`. Provide a root view and a destination builder to handle route destinations:
 ```swift
 import SwiftUI
-import ZBNavigationStack
+import ZBAppRouterFramework
 
 struct ContentView: View {
     var body: some View {
