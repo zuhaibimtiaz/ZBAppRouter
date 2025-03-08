@@ -12,14 +12,14 @@ A flexible and type-safe navigation stack solution for SwiftUI applications. `ZB
 - **UI Enhancements**: Supports toasts (snackbars), alerts, and sheets for rich user feedback and modals.
 
 ## Requirements
-- iOS 16.0+ / macOS 13.0+ / tvOS 16.0+ / watchOS 9.0+
+- iOS 16.0+
 - Swift 5.9+
 - SwiftUI
 
 ## Installation
 
 ### Swift Package Manager
-Add `ZBNavigationStack` to your project via Swift Package Manager:
+Add `ZBAppRouter` to your project via Swift Package Manager:
 
 1. In Xcode, go to `File > Add Packages`.
 2. Enter `https://github.com/zuhaibimtiaz/ZBAppRouter.git`
