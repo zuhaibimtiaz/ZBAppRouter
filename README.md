@@ -70,7 +70,7 @@ enum AppRoute: ZBRoutable {
 Create a navigation stack using `ZBNavigationStackView`. Provide a root view and a destination builder to handle route destinations:
 ```swift
 import SwiftUI
-import ZBAppRouterFramework
+import ZBAppRouter
 
 struct ContentView: View {
     var body: some View {
