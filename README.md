@@ -27,7 +27,7 @@ Add `ZBAppRouter` to your project via Swift Package Manager:
 Or add it directly to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/zuhaibimtiaz/ZBAppRouter.git", from: "1.0.2")
+.package(url: "https://github.com/zuhaibimtiaz/ZBAppRouter.git", from: "1.0.3")
 ```
 
 ## List of Navigation Actions
@@ -49,10 +49,10 @@ The `ZBNavigationAction` struct provides the following methods for navigation, f
 
 ## Usage
 ### Defining Routes
-Start by importing `ZBAppRouterFramework` and defining your routes by conforming to the `ZBRoutable` protocol:
+Start by importing `ZBAppRouter` and defining your routes by conforming to the `ZBRoutable` protocol:
 
 ```swift
-import ZBAppRouterFramework
+import ZBAppRouter
 
 enum AppRoute: ZBRoutable {
     case home
@@ -158,12 +158,12 @@ struct HomeView: View {
                 )
             }
             Button("Show Bottom Sheet") {
-                navigate.sheet {
+                navigate.sheet { @MainActor in
                     BottomSheetContent()
                 }
             }
             Button("Show Full Screen Sheet") {
-                navigate.sheet {
+                navigate.sheet { @MainActor in
                     FullScreenSheetContent()
                 } isFullScreen: true
             }
@@ -210,6 +210,7 @@ struct SettingsView: View {
     }
 }
 
+@MainActor
 struct BottomSheetContent: View {
     @Environment(\.navigate) private var navigate
     
@@ -232,6 +233,7 @@ struct BottomSheetContent: View {
     }
 }
 
+@MainActor
 struct FullScreenSheetContent: View {
     @Environment(\.navigate) private var navigate
     
