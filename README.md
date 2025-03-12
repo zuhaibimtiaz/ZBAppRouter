@@ -74,11 +74,10 @@ import ZBAppRouter
 
 struct ContentView: View {
     var body: some View {
-        ZBNavigationStackView<AppRoute, some View>(
+        ZBNavigationStackView(
             rootView: {
                 HomeView()
-            },
-            destinationBuilder: { (route: AppRoute) in
+            }) { (route: AppRoute) in
                 switch route {
                 case .home:
                     HomeView()
@@ -88,7 +87,6 @@ struct ContentView: View {
                     SettingsView()
                 }
             }
-        )
     }
 }
 
